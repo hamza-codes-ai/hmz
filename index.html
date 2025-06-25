@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalamViz studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Helvetica+Neue:wght@100&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/final.png" alt="SalamViz Logo" class="logo-img"></a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#Animation">CGI, Animations</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <video autoplay muted loop playsinline class="video-background" id="hero-video">
+                <source src="images/video1.mp4" type="video/mp4">
+                <!-- Fallback for browsers that don't support video -->
+                <img src="images/fallback-image.jpg" alt="Salamviz Background" class="video-fallback">
+            </video>
+            <div class="hero-content">
+                <div class="animated-heading">
+                    <span id="changing-text">WELCOME TO SALAMVIZ</span>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Projects Section -->
+    <section id="work" class="section dark-section">
+        <div class="section-header">
+            <h2>PROJECTS</h2>
+        </div>
+
+
+        <!-- Modified Gallery -->
+        <div class="gallery-container">
+            <div class="gallery-row">
+
+                <!-- Large Main Image -->
+                <div class="project-item" style="grid-column: span 2; grid-row: span 2;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCWscw88X1XtQgTnVh1rxnNC_hnfXG6j7ibMfmwjBV16GZ-9rlu72LcHsarAZGCnK8YLJ44uqI0qT_agOF19NRZttmvbOr3SfxYNSo7ivaziFE-UCwHwC_2O5A6QXZF1TXW5TnnroDF5QsscB2wxqAl876xBJMcIF4N1NmfIOca1cJHhDAeEhF_GJBSqTL/s16000/01_%20Left%20Sid_Day.jpg"
+                        class="thumbnail" alt="AL MAARA" data-project="project1" style="object-position: center top;" />
+                    <div class="project-overlay">
+                        <div class="project-name">AL MAARA</div>
+                    </div>
+                </div>
+
+                <!-- Three Tall Images -->
+                <div class="project-item" style="grid-row: span 2;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdyY2lwq24cC8piphsQhSSrWPTnmc796BapufJJ1NfY_16Eq7LTvTTdnHSTTLik2JIJHZD9cmQnc3uCrOslOAIvUGCAuLNs5DfMAhWhlOSPsP2cHcZCErFh7vXLtyAV8dlPW0baL9qf7U7n134Lu_35G6uhoO510Xn4ScqbGPd-6fwu1eZm1Q9PtKuKmG2/s16000/Hyderabad%20Icon_Front%20Night.jpg"
+                        class="thumbnail" alt="HYDERABAD ICON" data-project="project2"
+                        style="object-position: center;" />
+                    <div class="project-overlay">
+                        <div class="project-name">HYDERABAD ICON</div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRO7PIDDSJ_jijs1GBi1FL0g08gu3CG-1KQ_vUXpXlkL-3Poq_LHvAakaPw15OgjvWbH_K5l-tZE7NA71YbR300o4IEx50CS7B_XkF6jf9HZZvzAKtHir8r0pb2nnaUtXky7P5ebJjTlpVawAn0CLWMqFClK6g17jxI_dT0CJHN3wCOcuNvsoXx3U05V-t/s16000/Jasmin_Ariel%20Dusk.jpg"
+                        class="thumbnail" alt="JESMINE" data-project="project3" style="object-position: top right;" />
+                    <div class="project-overlay">
+                        <div class="project-name">JESMINE</div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3bNQNZ8Na5Z4JsAb1qHSmYMbokDsv0ZKJpkPe3N77slpjFbc-eZ-7kzzptWgkoxqdsmj3N5ihyphenhyphenCifvSZ4i0R0TJHKYX1o7VIF-JXQb-IkUjRWeMLF-Fb7Vx1VwZjgNiRQRYB6rrw6aYGJi_1UCAjQUAGAMOBVgDhqdNmtkekO-r9P1mQwG2zfDGsSkaZn/s16000/Front_Night.jpg"
+                        class="thumbnail" alt="SALAR HEIGHTS" data-project="project4"
+                        style="object-position: bottom center;" />
+                    <div class="project-overlay">
+                        <div class="project-name">SALAR HEIGHTS</div>
+                    </div>
+                </div>
+
+                <!-- Second Big Image -->
+                <div class="project-item" style="grid-column: span 2; grid-row: span 2;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfVN7aw86KMgpgyvi8bnTdPyj6bQ-rpqwvGJG2Wd1QWyQBAPUQN3qEjcrETAygofMmDNZC1CLtuwz1PoNrPFFRzNOPIkMqJrAeM4fRbzGNidtNee-Udcsr-uRj2nG16bNVjVtRRODNaq4CKobgyyRt0_8DQTQhkCk6XKeqbxRlZKzKhoUxsWc63OgDa0m8/s16000/03_Front%20View.jpg"
+                        class="thumbnail" alt="PASBAN" data-project="project5" style="object-position: top left;" />
+                    <div class="project-overlay">
+                        <div class="project-name">PASBAN</div>
+                    </div>
+                </div>
+
+                <!-- Three more images, tight layout -->
+                <div class="project-item">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqnF8BBWIO0JAvWT7ykvOJdJIt8JFQijW7-Y0ZTDwGPX2pFTPYNnyPjS1C6S4uzzGwIGEPW3YAq4hmnnH3reRX5BYWi28-mMcwy6p7UP3dmsaiNuiDDJLyK3pFaeBxxGhSfeDVx1ex3jgP_Az7Jfi_O9S7ofGIdHqMti-Dj6W2i7DMMMvU1Qx8bBimam5U/s16000/05_CloseUp.jpg"
+                        class="thumbnail" alt="MGC-5" data-project="project6" style="object-position: center left;" />
+                    <div class="project-overlay">
+                        <div class="project-name">MGC-5</div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj43fgLr9wlcV1NkX68T9p3Yn-jTqnDvYbVpFVmAJOz6iFe5yzrIiOr6HfoDspPziN7FVjzSj2hghsAGiqK5mi5tlS5dtk13FAWBxeEhhrppgBmTLR79k1B4zcq6dOaO_6ZxIrGlm78-tYg8TtFpQbVr25QMOQT2ab1wzUhvvXOG3Kgn2uB58QnsRk2_yWC/s16000/Exterior%20Front_01%20%20Day.jpg"
+                        class="thumbnail" alt="SLOVAKIA RESIDENCY" data-project="project7"
+                        style="object-position: center;" />
+                    <div class="project-overlay">
+                        <div class="project-name">SLOVAKIA RESIDENCY</div>
+                    </div>
+                </div>
+
+
+                <div class="project-item" style="grid-row: span 2;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilgdg_mh63S4fA_ssLJFohBxGH2EcLaGvW-wBO6u41okY78n1myfEy3dldpyf39XgefgM4r0_PwbLkgTEsNcuQ7fKLbMqKVWHXkbRxjJKLkhqbxVHWWWXIHQ1eYjmoGhh4Eg8VKb-Jhi8V9KCKnsznQZU2LWF1l83LOMQ7qlNN_V1Mk8MHJbeVTs7LWVw2/s16000/02.jpg"
+                        class="thumbnail" alt="LUXO" data-project="project8" style="object-position: top center;" />
+                    <div class="project-overlay">
+                        <div class="project-name">LUXO</div>
+                    </div>
+                </div>
+
+
+                <!-- Final Wide Image -->
+                <div class="project-item" style="grid-column: span 2;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-xsB6bfLb_Ex0Q6XWtTDapdn5tCsqXcYjh4Jc2beDw8cRP9xVfVSeFEqxrGkq-rHVo5xfVyVJKTAX4kcRJMtkG8-qPIjKHVmQhI1ga0rCloCzmgp3swF-Z3J-EVj04X15y6JXjUFVcrK-89pGLZeUbhFtGLhtB6MXZG5sreSbkFKAXC3hMjX1j5fX6krQ/s16000/Tattva%20Ariel.jpg"
+                        class="thumbnail" alt="TATTVA" data-project="project9" style="object-position: center top;" />
+                    <div class="project-overlay">
+                        <div class="project-name">TATTVA</div>
+                    </div>
+                </div>
+
+
+                <div class="project-item" style="grid-row: span 2;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtC0DzRUfcJ3hblViuq-fi9YfCwoXpGGKi2gPobtBcZH4kWItSFygxVRNfRi9LT8eQAhEHBHxs4hBD9EW3WWkWEDz5eR35jf6ia3UmLcNDGcqMBHJxPBLBmgK3c81s35dJLzVQ58cNFMysekV3sm3JQYusramRxa9Nq8-71BKQgfrqKb-SUS2yzCEzDuI-/s16000/Lounge%20Morning.jpg"
+                        class="thumbnail" alt="LUXO" data-project="project10" style="object-position: center top;" />
+                    <div class="project-overlay">
+                        <div class="project-name">INTERIOR</div>
+                    </div>
+                </div>
+
+
+                <!-- Final Wide Image -->
+                <div class="project-item" style="grid-column: span 2;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiggoSfbt0tYHx2k0BkRAzQVTAYfHqtTtA3zOPnXWv8mcxDYCY2weGl14PMPhSD2WYpq24302tNS5yszKITrH6D8cdheSt9Dtv88ArTg61OigXjVGBye_DwvGx4qBysAncd2Ny6-1fOerR2EnPPIvTMy2GerpSXXLUFL-oE3LeZ7FqU_bnxiy_Wd2dpjRHo/s16000/Lounge%2001.jpg"
+                        class="thumbnail" alt="TATTVA" data-project="project11" style="object-position: center top;" />
+                    <div class="project-overlay">
+                        <div class="project-name"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Project Detail -->
+        <div class="project-detail" id="project1">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCWscw88X1XtQgTnVh1rxnNC_hnfXG6j7ibMfmwjBV16GZ-9rlu72LcHsarAZGCnK8YLJ44uqI0qT_agOF19NRZttmvbOr3SfxYNSo7ivaziFE-UCwHwC_2O5A6QXZF1TXW5TnnroDF5QsscB2wxqAl876xBJMcIF4N1NmfIOca1cJHhDAeEhF_GJBSqTL/s16000/01_%20Left%20Sid_Day.jpg"
+                alt="Modern Villa" class="project-image" data-index="0" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvzRFsmWE2C2P73d71CVArloHvai-5B7hgrzFbKdEmG3Rr5GsknD-Vx6yN1IUVQl1pTxKMNTp308e0sdtIiKjh1yqYJt3W0hb4AU7HF-Da7b5h6lGzWfFcWI51LE85S9h7LrN9JeQ7PtBd648fdoDklsX4eNAvSdkgui3nn-x2fi_8T-d53ZhtYRnx-gOp/s16000/05_Aerialcloseup_Day.jpg"
+                alt="Modern Villa" class="project-image" data-index="1" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJxoBkWPxT_l-bom6RfeUtueZT7Z0c73vaK3Fpl40SKlKlKeL8LvCIWi2I3lm7i0d7NzteJZNQpPJzDl6mt8eadxZ6KopQooSgVgVnHRQ96PiH-7U2UcfUX3sdAIl06nxP_hVnqXMhx5JZlttYJgguYeWhjlFq3XEAEk5EzomZw64hkC-LHUQTn8SLZIy1/s3840/03_Bulding%20Closeup_Day.jpg"
+                alt="Modern Villa" class="project-image" data-index="2" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicIqmTFEdC1fzuzNDPtf1Zh15MYp-i5If3zD6GMLz-cSPUDmY0_rMAH0A5DCP1SWGMdeE65ZADSNSCFe8K8TNI2klOll_Si0-WxP7e-Lm4Q5xnSHFsGlatc2oP5nOVTf_PLUm_Ox8Vv-8hZSiqsiAytDg063khQ3Y7vEF5m-Fnw5xPa42ScpbmC0GsFXHp/s16000/02_Main%20Enterance.jpg"
+                alt="Modern Villa" class="project-image" data-index="3" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDIL8HNryVIyE3ZRRI9vi2ncQY3Vdxm0fP-DQQ82l1NsXGX69U11uGzesrAgVUUfuWquis2jamnjl6ftE76feUQtlRCdPxUo3Vi9PaM1lcWDy4fKi0Bst6L3I01um5B4w9y4MKNwKdzDPjtf4JxABzKfCCixwHf_p9BbjN6_KCqvYHA9XD6vEIXqF1swzY/s16000/04_Leftside_Evening.jpg"
+                alt="Modern Villa" class="project-image" data-index="4" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFyDNaiGHLZWe4UKt9awvCy-3D7NjvllGDanL69-NOkNKT_GTUgNWgBItpTETcrcVfeA2jkuOK7FZ7VzpjD8dVk5ZDyiyFXaSjkKSTRnei3hDOP6Fjhz4BK07uZjBd_XsVE8DeWE_yGQRnlGPsNbgk-u0aFfCQaigCojTwgXTlc7ZvEVzo53CPeQuHEzdw/s16000/06_Aerial-Evening-Salamviz.jpg"
+                alt="Modern Villa" class="project-image" data-index="5" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAV29g9pDvWMXOewVcAOW92-U0oyNRf9IWNBwbiOmPueDeTKfaovhrbJPpI9IbJ03jt5SLhgO_sV8XJ-6Fi4UJurKHEjIjXQQQVR8MjOV-0jxOZYAAtQVK7tQlkPTcXt8u2UeiRDogVrTa3xuYGdXtSTi2j0Nrzt7puDy7M8vM72Q_E4GBvHULeedlgVSe/s16000/Reception%20Area%203.jpg"
+                alt="Modern Villa" class="project-image" data-index="6" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEUDqr2mQpOFoU8VL1DyfKmnVR8_14_TmOtMizNrEvBad_XBBw_HPaMpBYw8u1yOBY8XY4pje40Qeqi-mElzff1XaqLZWK2PnVYpHRDMWkg-jpdNtXC0L_iPuRP3ucdRCbVQxhd9dXT4_rY_WLQNJKhYVRGI9htNhcvZg3kmZ1nNqV8I2M6wqhvV1qGE-m/s16000/Reception%20Area%202.jpg"
+                alt="Modern Villa" class="project-image" data-index="7" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkBggfArr8npmbtisqVKkot1WNUMuxOc8M-QI_EZhA-6legyWykxXzY_8Ben4P8ea9e9BxVHWL3EA_3wAX6KejHUhSnDQv586x9xnAml4BM_9Zh5AQkr8bCQE732UKQOmjuJ1rOxNhsgVu1eDZPzjb-rVlm4bvKECuLYNZokRU9ASh9-sPneSYj5r0I9wX/s16000/Reception%20Area%201.jpg"
+                alt="Modern Villa" class="project-image" data-index="8" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDAQXPWyYntovB-zTUBCDHvvFwmm5bt-GojRoU0nGsp5y0CC736htcCvS-GkqmO9Ga-ZQxQrGMjB7tMnjmGEdzHdp463zCl4xqEMrq03fw6oDB2SuKR2OoD-LOMwpTjanUgQje_jNCtkD_OtJshjqNzzmylANLRImMgM1s-WZqbwlETJ8L_CN5POR1p6nT/s16000/Corridor%201.jpg"
+                alt="Modern Villa" class="project-image" data-index="9" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBDl3CGfU0wvzzITlG6R_wiYFjJ8V9HmkB36CV7_x5s9GzyH0FcmG5iN6ntZJ9WN_j7seRgA55UeKCOj15ndg6ysMX4VJrhI-vq11QVF8sPZL04IR2K7f37buNT4cQZHYtQgqBgQdLmPQwy6USBocUYSDjXW1hffs-3qgnAZ_w-x2nSr9wNzKI2DGtNYMN/s16000/Reception%20Area%204.jpg"
+                alt="Modern Villa" class="project-image" data-index="10" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKp_ujyk7Y3_MXX55rvza4gHPultdnBXsFgQVd1_B0GoHByL6IaAyyYpKMZBNjROuP1LZAwcKlTxcMk__XqPeC2xzJ6hSZiKctbQLZEZA6MnVmJCieIQGO0th05wWB5ZyMEOOCjDnyrFWRm5GGSdq7GdvSNrtuZMrSadDiXWEQuv9FSbuF9-hVe5xmExv6/s16000/Corridor%202.jpg"
+                alt="Modern Villa" class="project-image" data-index="11" />
+
+            <!-- Comments Section -->
+            <div class="comments-section">
+                <div class="comments-header">
+                    <div class="comments-title">
+                        Comments <span class="comments-count">24</span>
+                    </div>
+                </div>
+
+                <div class="comments-list" id="commentsList">
+                    <!-- Main Comment -->
+                    <div class="comment" data-comment-id="1">
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <div class="comment-author">
+                                    Ali Khan <span class="comment-author-badge">Creator</span>
+                                </div>
+                                <div class="comment-time">2 hours ago</div>
+                            </div>
+                            <div class="comment-text">
+                                This is a really helpful post. Thanks for sharing! Let me know if you have any
+                                questions about the design process.
+                            </div>
+                            <div class="comment-actions">
+                                <div class="comment-action like-btn" data-comment-id="1">
+                                    <i class="far fa-thumbs-up"></i>
+                                    <span class="comment-action-count">12</span>
+                                </div>
+                                <div class="comment-action reply-btn">
+                                    <i class="far fa-comment-dots"></i> Reply
+                                </div>
+                            </div>
+
+                            <!-- Replies -->
+                            <div class="comment-replies">
+                                <!-- Reply 1 -->
+                                <div class="comment reply" data-comment-id="2">
+                                    <div class="comment-content">
+                                        <div class="comment-header">
+                                            <div class="comment-author">Zara Sheikh</div>
+                                            <div class="comment-time">1 hour ago</div>
+                                        </div>
+                                        <div class="comment-text">
+                                            I agree! Very well explained and clear. @Ali Khan could you share more
+                                            about the color palette selection?
+                                        </div>
+                                        <div class="comment-actions">
+                                            <div class="comment-action like-btn" data-comment-id="2">
+                                                <i class="far fa-thumbs-up"></i>
+                                                <span class="comment-action-count">5</span>
+                                            </div>
+                                            <div class="comment-action reply-btn">
+                                                <i class="far fa-comment-dots"></i> Reply
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Comment Form -->
+                <div class="comment-form-container">
+                    <div class="comment-form-title">Leave a comment</div>
+                    <form class="comment-form" id="mainCommentForm">
+                        <div class="comment-input-container">
+                            <textarea class="comment-input" id="mainCommentInput" placeholder="Share your thoughts..."
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="comment-submit">
+                            <i class="fas fa-paper-plane"></i> Post Comment
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-detail" id="project2">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdyY2lwq24cC8piphsQhSSrWPTnmc796BapufJJ1NfY_16Eq7LTvTTdnHSTTLik2JIJHZD9cmQnc3uCrOslOAIvUGCAuLNs5DfMAhWhlOSPsP2cHcZCErFh7vXLtyAV8dlPW0baL9qf7U7n134Lu_35G6uhoO510Xn4ScqbGPd-6fwu1eZm1Q9PtKuKmG2/s16000/Hyderabad%20Icon_Front%20Night.jpg"
+                alt="Modern Villa" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZsAhfF99WFqse15ezxLzgRto2azonDN9BtUA4C1hR2xjIxmGVNirYIisHOBvjr1pW_oiDlj9VeFCd_Y8OfoaHz_XIb_m9W6UBoKCVRaZO5B6RpbxlGyR4-oPgCy9ozX-2tHaRTTTy2XcrzzAv-mZb8vv4Bv1JeginHkBUOzw-xSNV3GTOPy_bMw-4iBEw/s16000/Hyderabad%20Left%20Side.jpg"
+                alt="Modern Villa" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtLhPoSkxAK1MK6ypLVop3mp1krdNCbbTQchE9Pn6En8iHlZrkCPV79qpRG3qCF1GlJqafsRWVXtdN5zg0iqlhzmiX-VerpGhAnjhUMKftZnOYIVika0rutokRpQr7pCyC9bxJ4Eciaflb7G6kYQkk_OeUlptknIRfo-r1HqK9g5leeqybXu1y_P_lybMW/s16000/Hyderabad%20Icon_Right%20Side%20Night.jpg"
+                alt="Modern Villa" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEi-SI8YN-CesUfdn9ZAKUIQrzWeO-OysQjtmRuV5cuFOUqcKrARkm6lFe6xId61QycC4HDOePp5kdpVzTq7b_HpXMEurWlzPMG3GJp4jWDkhBVe3ysDRWc9hyphenhyphen9htNXv3kEBWDMiFq_rm-JC-fNTalpCZayZmIb-Gqexr2GADNMv8ygQaogdP12GJ7A2lO/s16000/Hyderabad%20From%20Left%20Side%20Day.jpg"
+                alt="Modern Villa" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ3oW7DzP1NPCv8xuVi_CiUxgdZCFfsZbbRsebYcGbFX3znWK6iUB3z60VqMe6ull9_jARJdLu1BRozNwfV9WPjLAojZ0mL1t7Uq9iwGIiNxUFtn4vh0j_sjHTRL5v3ZH_9dX2C2Evl_cANTqVwkjl-W75hUpCgjiqdV5v_glRsO5oHCzwAXUZh4Gc5kpu/s16000/Hyderabad%20From%20Road.jpg"
+                alt="Modern Villa" class="project-image" data-index="4" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1dXSLKI7IZaETgBNkgVEzxFZJpddRKCNY-rOB8oglSyFUfgV0eR11yYOLHRBt6lzTMg7LHNNZuHq23yDSFhS5J3U1UKZHah3ahvjr3q-qrjoqn-sOBuLE8gxOVmDE8Z1nIcR1YsMn1j-NBiQ0bUz5sXdxSAY27uCsnHLCAY3oi9NsD24H5tdTYXFtw9_F/s16000/Hyderabad%20Close%20Parking_.jpg"
+                alt="Modern Villa" class="project-image" data-index="5" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLAzCDfpOvnkg9ViZPCeSJOG-Luym2hyphenhyphenkxpaGPxGKZ_qGxF63d6qZUwwzAfttSkzLC9tcx2QneN7N-Lo_lRAaSfCi1cix-zd7laHrovuTngfaOSY8W9gxmWUj25hvQKgvYiPaBFFZEM5Wxygf_S2nw2w6zDyv9Ix1ZJlGLQ36La81FgUyouEq1g1C8N1CJ/s16000/Hyderabad%20Close%20Logo.jpg"
+                alt="Modern Villa" class="project-image" data-index="6" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiAIWglEyxT7-V5zUoD8CY1fM4E4Vk4jN2mtGteFLcjgzfpNPNaTJ-PQPC8LeHGAJEvO7pIse2x5RWQoJ5_uUS0w_2tZIKNANWE2X6BaTsSCLdsn0uiPZ4etDxAMQ4weQuL1lyMTusE-84cPOe7RyMJ7ptuOPoIGzKIfLDrCE2zTqf6z-i9ZNNX8EkQLVW/s16000/Hyderabad%20Botton%20To%20Top.jpg"
+                alt="Modern Villa" class="project-image" data-index="7" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP-sSplFfJ70_SChZEnCVdcceQkXh6eXUl3_1MQ68PevApX7BGbFO45X284MvZXCUr86QGcGZ79aRWe4XjCxuUV7l_XmxCJWAELdWretD1XOY825CpFfZNrDqsS5tGhTbQwiJXJmefVOZicop1xEFQirMWWMp-CfOJpv6vQdZMRYcGWqKP2ObrFIQm-ROu/s16000/Joggin%20Track.jpg"
+                alt="Modern Villa" class="project-image" data-index="8" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFGQsG4sMcAZ5r-5RUzreWGqfCm1F9gzVIS5yV4yQ8aCUgyMzqS798WRlOpIXR8Y8g89AsuUJHDxd6Qr1gcjQWhfZqDNaA2MFxK5aRzVeoI8HF9jAE7gm0nZ83FxDhSAOYC4UBM2MRbWoL3p3l_fh9WztmkErxX7QtrXwBjhN3WavPpOCfJvj-O6AISTr/s16000/backyard.jpg"
+                alt="Modern Villa" class="project-image" data-index="9" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMb_Q4FTrDgnvFtl6mqquzU-qCerNHrspa3pfJSdzduNkwcAYAYQ6cCD6AeiebbSWagC3MXnm5GUFsWgZhhhQuJC4LPh18RoN06M2vft4Xr3gxcwlq21H4VPCFFG_IfOIsDeuc2CY7ojBtGmiZN_YgtVKrGVSyu13fu84VpfLYu14qNBC3ReQFxzLhK5qE/s16000/Malll.jpg"
+                alt="Modern Villa" class="project-image" data-index="10" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWvwLu05OAZkoDDlqwAGL1URNZ7hdCUFFyPBUwABtf0_hP6FZravItqHrwgpXLsjMWvuhpqozxzjD9Y6Wb0CXvti0IXDuvGpX2da2SUHM8Z9QR1zuTzvm1bLvhZSGHQ4ClQFfKTv8stNDGMF9BWicDA96p0DglA9o3m2QBVfWtPeaLhkz4Dop-QHCyO2J8/s16000/mall%202.jpg"
+                alt="Modern Villa" class="project-image" data-index="11" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhYYyerjZM1IKweEdOfB_iRHUKIyFvTGKDEPQjTdAFqpHuC0CynNmUsYC_K7Z3_D4RQ87bdkKrKRE1ipscktu34rKHrrHKVVcvWa8IRrxlN29YTknoYEQ0nP3w-13WaT8hQajShhrrgi4txOuhjpSyN6eZ4JjJmDkmHd3wVBgBFoYJK8gkWZRGu0twbCgW/s16000/Lobby%20Enterance.jpg"
+                alt="Modern Villa" class="project-image" data-index="12" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvkK9TRJeug7L2JP9sqQq9_bmLdNtqbIDRXXz5ab0vIduRWrVdNebnQRKIsu3hoCB3h-fTdxb0M24R71RFo6-RmdPXrH9L5IElQ_wLE8wdhjuulMl_nQ-k3jqcKRorIhy92aAiFRaB0URVl3ETBjSmy3gppQOFQGw524mIk71Nv-LIVDy7n6eP_QV3Vsba/s16000/Lift%20area.jpg"
+                alt="Modern Villa" class="project-image" data-index="13" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNHtAz63dlZ52gIj5O8KVwDXNKVgS5Q4vbrkJ11fNLbFIw_3CK-fU1T6m2s2mCOyP9byC_1fTeewULVxjc4bYKaNc0QukXhNipQrpGumWQQh8xtxYo5phCBwmOrn5ZFvfQSeZkWietwDwug8FhhAkmAke08vzZSh4vUxVLL3LUl6WT70qndALYgvCXZX2/s16000/Food%20Court%202.jpg"
+                alt="Modern Villa" class="project-image" data-index="14" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju6MdBJCLBBYK7HTIRXsmAaw6VMQMcDPFQJjB4SwSRRW0DPIJ2WCubXMWlLHSiMZIMGqB1x2O1H_jOrUtF86thBwADDuLWlkPLdYMiR203XJQPgrjTayfPoEsGzfY0NXgI00KL1BwMil9ilmDfvKQL1oHCmZwxg_VM0NwUgs6LsPKCBQ6-NeBsJcY4O4ia/s16000/15.jpg"
+                alt="Modern Villa" class="project-image" data-index="15" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcD8aR4odYhvvEcwjCiuLR9tP996Ck67WNJ64ajhZ7IU7fmw7u54ZpbO-marwCtmMdpdIlBRLgf8apJjwBdiWtoTg92z3M_78i-jXl09lPDrsKZMtdkPCUQdqEXZKZGxHFBtiZc3ylZ_NJADyQJDEYrcZwPePM08c-3D7cLl2VgLDjv93IxmIgfxrlWJu3/s16000/Gym.jpg"
+                alt="Modern Villa" class="project-image" data-index="16" />
+            <!-- Comments Section -->
+            <div class="comments-section">
+                <div class="comments-header">
+                    <div class="comments-title">
+                        Comments <span class="comments-count">24</span>
+                    </div>
+                </div>
+
+                <div class="comments-list" id="commentsList">
+                    <!-- Main Comment -->
+                    <div class="comment" data-comment-id="1">
+                        <div class="comment-content">
+                            <div class="comment-header">
+                                <div class="comment-author">
+                                    Ali Khan <span class="comment-author-badge">Creator</span>
+                                </div>
+                                <div class="comment-time">2 hours ago</div>
+                            </div>
+                            <div class="comment-text">
+                                This is a really helpful post. Thanks for sharing! Let me know if you have any
+                                questions about the design process.
+                            </div>
+                            <div class="comment-actions">
+                                <div class="comment-action like-btn" data-comment-id="1">
+                                    <i class="far fa-thumbs-up"></i>
+                                    <span class="comment-action-count">12</span>
+                                </div>
+                                <div class="comment-action reply-btn">
+                                    <i class="far fa-comment-dots"></i> Reply
+                                </div>
+                            </div>
+
+                            <!-- Replies -->
+                            <div class="comment-replies">
+                                <!-- Reply 1 -->
+                                <div class="comment reply" data-comment-id="2">
+                                    <div class="comment-content">
+                                        <div class="comment-header">
+                                            <div class="comment-author">Zara Sheikh</div>
+                                            <div class="comment-time">1 hour ago</div>
+                                        </div>
+                                        <div class="comment-text">
+                                            I agree! Very well explained and clear. @Ali Khan could you share more
+                                            about the color palette selection?
+                                        </div>
+                                        <div class="comment-actions">
+                                            <div class="comment-action like-btn" data-comment-id="2">
+                                                <i class="far fa-thumbs-up"></i>
+                                                <span class="comment-action-count">5</span>
+                                            </div>
+                                            <div class="comment-action reply-btn">
+                                                <i class="far fa-comment-dots"></i> Reply
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Comment Form -->
+                <div class="comment-form-container">
+                    <div class="comment-form-title">Leave a comment</div>
+                    <form class="comment-form" id="mainCommentForm">
+                        <div class="comment-input-container">
+                            <textarea class="comment-input" id="mainCommentInput" placeholder="Share your thoughts..."
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="comment-submit">
+                            <i class="fas fa-paper-plane"></i> Post Comment
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project 3 -->
+        <div class="project-detail" id="project3">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRO7PIDDSJ_jijs1GBi1FL0g08gu3CG-1KQ_vUXpXlkL-3Poq_LHvAakaPw15OgjvWbH_K5l-tZE7NA71YbR300o4IEx50CS7B_XkF6jf9HZZvzAKtHir8r0pb2nnaUtXky7P5ebJjTlpVawAn0CLWMqFClK6g17jxI_dT0CJHN3wCOcuNvsoXx3U05V-t/s16000/Jasmin_Ariel%20Dusk.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="0" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ewJq_LJzLrZIY8P3A52CeY-MNaKeMCd6uj87rd64_9_MPxpdYzYqLSzYlWv22TMxYTLUg9c2NBdKbpwab5Gw8n2KPCF3qY-j1M0Czt9dPCVT_z7nSYRKuXSNXEKQ57mac95VnnNOI7vavrJbzGJVUW8c5nN4bavWEqVGJQJK7Hn7XSGh7dxWwtqI7Jio/s16000/06_Ariel%20View%20Morning.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="1" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ewJq_LJzLrZIY8P3A52CeY-MNaKeMCd6uj87rd64_9_MPxpdYzYqLSzYlWv22TMxYTLUg9c2NBdKbpwab5Gw8n2KPCF3qY-j1M0Czt9dPCVT_z7nSYRKuXSNXEKQ57mac95VnnNOI7vavrJbzGJVUW8c5nN4bavWEqVGJQJK7Hn7XSGh7dxWwtqI7Jio/s16000/06_Ariel%20View%20Morning.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="2" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1JNqmLwaF1i1mNB7w2_7s7S4cHzoDIi4n8JImpTVVPZXpme76n8BQBloiiRkEy5nw7cv7i5dnUiwsrf5UQZxKs1R7cuyRvmDKMwv3xgAhB7aX0oJVXGeQY1vyw6bMG0eXwihY63kr3lbOezpZ0WuCIjHGfhPXtUkDYCfgyr-z1vI_qJ37TLevw0jm0LeA/s16000/04_%20logo%20sun.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="3" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisZzZhGW6h2RnLufHV3ZS_FyWd9EdpoYAfrWkZrWSRcEaHGM57v64CeXKpVJ31jUUhRptEujYqUuWpn-NiW_gtjTf4n2FQr-MeEmKMdTMg24CsnBWDYST2wiyypyvErj6Cwt27bnXKTWWJqJa2HEsBDYU8C-fhcRzXpXEmKfmxzsH-38xJnJGfmV-VAM9B/s16000/03_Top%20To%20Bottom.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="4" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDG2XS_kY8tSsUyNDaSv2VO4K-OsaPsHjLrbB9rQptRZNG4-xZe8Y3GSONCO8ndMXKECq49kkarP4K2u7X2U3fKJjttJ2Gz_5Rq2YgaAJAvohJl8ejmpUYge6uua1XI12LMvCKhYy2tH3eYjZhWvHzwASAc25vjkZARRrfGE_61BQCqfbQOLSLtsiB-V4H/s16000/02_Balcony.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="5" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL1Yk2gdOCr7R_zSyTobzHqQThNvirCR3T8RlHo-l7sj1XEYtqtwty_BOG20zGdIhVJgAa86Zyd32h9SgnRuZ2qPzsj0lFM4yPrlZCPN61LVd2q6mjlpUNkjUGAwtxJVYqOMsY8dlVyKsXGz0zB9F1q9pBnWO7dtfpp-12lGDb3MfTQoe_OttKxOTaNiXQ/s16000/01_Bottom%20to%20Top%20-%20Copy.png"
+                alt="Luxury Penthouse" class="project-image" data-index="6" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfMSf0CvC7nf4SKEtwevG7fUOXEvqk-eShcIgFzMAp7pBH5aZj3IlqHCBggMoNE7rxo9LzqqSuLxgfDOwluq86VO2_sUhphinEqLAsUqgcYscG3rUKVZfuJoBGbritJCrm0QQHAyZZRW1YO1OweHsrCPQLkGSIJvRB0KKWxiP3AxQApK0lNWdbSgay0eTz/s16000/10_under%20palm%20tree%20-%20Copy.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="7" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilA3r3gdMPqPIsY0TuUgYElv5ALdSsZqcXSYkcJtEJgqZ3kmAxIEpPKVZNUK1b7hS1fJu8nVhHsBtICCf0o114cSh3S0Dj23BWvDVYoZGMo2CfbKN47ipeMEQphBDyzkIcAN46S7LsqHlo0uc8vqzA0DcC8R5sKMJbWkyuRCvW-eGOAc9T_JH7Gzgxtv1P/s16000/15_Balcony%20-%20Copy.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="8" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxhOl2P5nmctQPQjC3tfP0kTRc31rKAYWTNdGaf-z_qFeuwzRBtn1VaHx4-DdrwGhsvEvW_DZ-piQDunwAjyzbcNAix7KA8XhCJP-GPZG0X43S99nzq4CQkdns4XnN_acsyGGp-s3_-xaik1qKgcO0VatzjPowx00XPynUMdNbSTiFvDKf0By6PeuAbjOm/s16000/08_Play%20Area0000.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="9" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3JoqhvSgPTf_INlCV1ki1Fz4CQTPfFRFx_sebs5Qw9lUpV18gDoe9nAAev86otYw-p2_918TRrO3Zc7k0xpLUb_3Ri1i5qfMW9UtfdUt_ha506zyqGHwzyIdadCtxbDCYiwQkWMPJKXw_HsT5N9hyFcPL14Sa8c4Rm-szYum33tzcz9fVHGufbe7ZR9qt/s16000/h.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="10" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvY8w-qegpoxZRRZR4y9DN4DpQSc63mYuNUPuwBBN8HNDy_P3ULCJsMLj2mLqJnq7Iw104c3IkNa_SZSfT6BsIZcPknjVdFR4BPD_FedCBQAt0BkNmYqSMv5RTo7CCHRl2pycOPmILq0cFBiejy84NY4jsdP5RPtlIpAzLVnKaT4OShTomQW2kVI6GO3Sx/s16000/01%20Pool.jpg"
+                alt="Luxury Penthouse" class="project-image" data-index="11" />
+
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-detail" id="project4">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3bNQNZ8Na5Z4JsAb1qHSmYMbokDsv0ZKJpkPe3N77slpjFbc-eZ-7kzzptWgkoxqdsmj3N5ihyphenhyphenCifvSZ4i0R0TJHKYX1o7VIF-JXQb-IkUjRWeMLF-Fb7Vx1VwZjgNiRQRYB6rrw6aYGJi_1UCAjQUAGAMOBVgDhqdNmtkekO-r9P1mQwG2zfDGsSkaZn/s16000/Front_Night.jpg"
+                alt="Mountain Retreat" class="project-image" data-index="0" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhktgWIv9FWFxIkD_SLwYCNepL0B7Iawp3UA0VsGC_JmkJm7z9Hl0QzuhLSoDmpERfS-G7QUuVQkxArSxGks6rttis6t4wqHhL08GENe5SEZgo1O45HIUNSr0HtwEpToTsxwtc4i06919r68chpTMxPLokG6xrUvUsAtRZmrKXvdyyc6jd0tJmzjqM8ue-q/s16000/Back%20Right%20Side0000.JPG"
+                alt="Mountain Retreat" class="project-image" data-index="1" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz72CDL2maYT-dpp3CGrIWrHdn0W0y7njNA920dHnX_psJ86ccCrTrP-4xoS-qGYWxHrDpheW5R8b63HRyIaOMoyIfVkg7MrarZtv3K0uJKshy1jv_QRlmUQaiGJt0xUkrUkr0Dc1ZmhY9BqLPxTmtG8EjNHVi6pA9DQ2FNsQfIYF0XShpbDaalNPp2T40/s16000/00.jpg"
+                alt="Mountain Retreat" class="project-image" data-index="2" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrySLIIVNG8suhKeYZ83H0AsdGl8WcQ562RQlRBe-qtRxPxNHlrim4C0z_zwpXykr_4GBCJJuFJ7NnigNw52PZh3sVoD51UTEMdkgkcKFYOw4Fvelg2MqD711LYPlTqtpeUu2736u3Y2edGvRwn1nFjkuWW9hS0SQS87i-uVIuQl4lhrhkY36Yiu3izoeO/s16000/BACK%20SIDE%20LEFT%20SIDE0000.JPG"
+                alt="Mountain Retreat" class="project-image" data-index="3" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikAtxsYtIJFpqgzq8QEhmq2wXLQKzjt2boAbZti_D71ssv0GU9xC_Oe9VNafnigMVMsrKcfvItsWr7Qts19Pi6eaNk4UlI3W0QeKHzeeR19cJD4UV7d5ogtWMtklOsXW9Vne6jTG-Gsi0Jzu75JABTgkrSoA3N03n8GljlBuN_aZLqGZWtKAJ12R3_eKJD/s16000/FRONT_RIGHT%20SIDE0000.JPG"
+                alt="Mountain Retreat" class="project-image" data-index="4" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl62uhImvjbPR605praVXVA54XRywqC7mSDQNKHdbpIhGNFkKsJLiig7ZgHRbumIx10FMFr1o9rvoWCwro7IwAfcds_wHkzCTh6V4EmrVtqLxwzEavSgH-fGqlQG3gHzf9p1OML50mxFHeVWImx-0-VvYgnHYR-oPCWp1v2gIYYUi9G1Z2kgJVywpKFdPZ/s16000/CloseUp%20Logo0000.JPG"
+                alt="Mountain Retreat" class="project-image" data-index="5" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7WLWtctdoQ5lbtfpWP8iTFqV-zIKc0S-yPS5s60VWYA15oI07it1XFSE4q7swUECxckfthzs4AZPK5xxxOXFHHHRirnJPyTHbpcApohspfXMuYLzejeu74b0wPquNXBg2jjmHc-BGkocJg8Pvk9YWE9u8EFCIDupYucye270yuSsoGkK4iVZSm6SzQr8f/s16000/BEDRoom_3.JPG"
+                alt="Mountain Retreat" class="project-image" data-index="6" />
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW6ln8kKgiQuCElpnMCpft-1jCorXtgkeXL1g4_Cz99BKgOSk8JqHao0NzJCiepNlIYOgyXIjEsh7oYeeRt9U9VMU9XoCug9lwT5jEsw-j4pZmS7v_rOYkN3S8IMRyG5eQ1YNUH2-KT5JhCvFj8Orywb8SyrbCpvxQndJzYLH1kQI9-wAlTSNM0vxuq580/s16000/Bedroom_1.JPG"
+                alt="Mountain Retreat" class="project-image" data-index="7" />
+        </div>
+
+
+        <!-- Project 5 -->
+        <div class="project-detail" id="project5">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfVN7aw86KMgpgyvi8bnTdPyj6bQ-rpqwvGJG2Wd1QWyQBAPUQN3qEjcrETAygofMmDNZC1CLtuwz1PoNrPFFRzNOPIkMqJrAeM4fRbzGNidtNee-Udcsr-uRj2nG16bNVjVtRRODNaq4CKobgyyRt0_8DQTQhkCk6XKeqbxRlZKzKhoUxsWc63OgDa0m8/s16000/03_Front%20View.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihru_n-2c0VTywrWAsCf5V8YSNdJ1az3ZKlt07MVgj2z3n3KE3rogYR2MEk3T22B7N1RmUK6YqiGWZuPoLjkw9T_N5WSSAl3v5ea4IS0CvrGCGcPEBFTp9msTsy8N-bI5PszQ3Veh7bzFI-yz2deUxp9CN9XVpaG1mOuNOe7D0110Yu-DvvPKflLQVUjJD/s16000/06_Right%20Side%20Full%20View.jpg"
+                alt="PASBAN" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY67UP0hZx8MB8sHhzTvdVHD2WkCX6mBfbRAuvyYgK3_IYSPfFNrLrjhLB8jipo0i7Tah_7lcoLVle8-aOTw9exBjnjFUQMFq4ty793ObsKBPIWDtodCu8EngeCw2k4uxWRflTJNJYQRGf7zYE-lts4mTrldd6lx3uRLIafj04m4_OqZjfUWcnTD6w4TvT/s16000/07_Back%20View%20Enterance.jpg"
+                alt="PASBAN" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglzvFPKfUdaCiskVjgweHzGBGubfp357c1f6lyiUvJrS-kke7js4xYIy9VyEbUZgWkjz80h8lC3YVPdZW4rshop5TrxBmEH0O2-x3f4bvCjAXMQtMexUwnZzG95nVHhDrN83dwQk2D2VzFTWSxf-XIU5M_io3BHPsa7NICAL-QqncSP_AW9L3cA-AaTPo1/s16000/08_Botton%20to%20Top%20view.jpg"
+                alt="PASBAN" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsArP5SJQjC6o6A8zWuOcqS3vIwinLzhQ5LOSSjBCUFzJDrzTw6RDD34qXzjKTxLR8k2lebAEVuwvVYBLblEld5JuP7Cfg2ZWU0XEDCxOn37pEig_sPS6XaIrD9FCWL3k3hwgpoM8gyRtH6nGM29aNrpEmo-MUs8Lsw5Th0trofoDs5coM40WjZwjTmgrZ/s16000/01_Aerial%20%20View.jpg"
+                alt="PASBAN" class="project-image" data-index="4" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheF8rHU5J7OlTjB2k2nbTOBMTmZ0mo2YYFxkpreJPTIze5px5p22f3L2pXPTxilyzAFxyHdT8UrnMV3CFAcKGLNQVScjAL8Nq4OLQLDn7LArJ5oYBuMR2n4vvhLKwJLXsTBiUEp1E0gLrIZ8ZxoyKY7RxcQFmEJLJ2zuTqPJzz4odFotrs6WcDaytD_QQD/s16000/05_left%20Side_Office%20Interior.jpg"
+                alt="PASBAN" class="project-image" data-index="5" />
+        </div>
+
+
+        <!-- Project 6 -->
+        <div class="project-detail" id="project6">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUFWP_BDS9ww_ExDz8CJuEGfy0FaWH6nNI749fLv_RN-a7iIBUDM2xS4KapcMg5T3cfxbBeXodum2pNIh8Wc5TE4wzdJWWhAgMqLt9DJwFA0Vdh-idEOoOXH_KafP9rkV6609bUV0oq_lRp2ZMtqCrx-MW91m3T-R3fmd20cL8HNk_VcK7pCCJF7wlPRuB/s16000/04_Front.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqnF8BBWIO0JAvWT7ykvOJdJIt8JFQijW7-Y0ZTDwGPX2pFTPYNnyPjS1C6S4uzzGwIGEPW3YAq4hmnnH3reRX5BYWi28-mMcwy6p7UP3dmsaiNuiDDJLyK3pFaeBxxGhSfeDVx1ex3jgP_Az7Jfi_O9S7ofGIdHqMti-Dj6W2i7DMMMvU1Qx8bBimam5U/s16000/05_CloseUp.jpg"
+                alt="PASBAN" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNRFilTc3hrkyd402CIEdgwjjdkMDjl19BcQIGmRYVTkG1cXtqZah2vXSjc-iVLa2kLPDZQi5A7z2WpywHqQOJ8KCeC9KBgZy87vFUwVRVhVdDyelUlp_6TLSOxLLSxb8uJCOA4x59xjaM0mqevPfN5RdPpAbOyOB7p6xazW9qiFSZhIuhN3wmCw4lqF8k/s16000/6_Roof%20Top.jpg"
+                alt="PASBAN" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNfWXW2cZPwfqCcXj_AE_GkUYlhBgOgSvu9fiVwbCtAS6ZWNzNCc495BQwfNqXJ4iZWiG8RGf-Js1-ovZKbN4ur3RR5QAKQJmcBhEUxsk6-A4RKiPb-N-_fBBUlIHNzaSnuCJM_71DTCyUbIzswRiby5hz1V6exygoR0qNoO-ecRPOWNLFtM-NhE8ah0-1/s16000/08_Night_Render.jpg"
+                alt="PASBAN" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7dBNf_IEdj8JFAvMcUcrX97XANPORIZqXVT1vLkUsMQCi-5ii2O-gfjYqnSrymsLT99RgsLQEjkwGfLKLr7gcnF-_YYxOgt_Xpm-AVW5YpWh4W4WZfKzz5Vgr8YEM-wTpWzUPHFlyNeBjwDxELKMv8G04Qj4stBg6SFV-e3x2LakXE58WGj5EJl4m79Au/s16000/09_Night%20Render.jpg"
+                alt="PASBAN" class="project-image" data-index="4" />
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-detail" id="project7">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj43fgLr9wlcV1NkX68T9p3Yn-jTqnDvYbVpFVmAJOz6iFe5yzrIiOr6HfoDspPziN7FVjzSj2hghsAGiqK5mi5tlS5dtk13FAWBxeEhhrppgBmTLR79k1B4zcq6dOaO_6ZxIrGlm78-tYg8TtFpQbVr25QMOQT2ab1wzUhvvXOG3Kgn2uB58QnsRk2_yWC/s16000/Exterior%20Front_01%20%20Day.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG-WgPh0eO0BQ9JBVbjBqUwrcVj6XXOtmH2ZTBVbFqxWe-IWma0Jletc1TnmVg2gzz_iPPLMzIGT8Fx5DoxxevmreOZbD2v8EvHIRVWoAHs3bDU1Jbs4A1CgD-BdjotoKC5c0GWj0XeU70f7bhQtwXmrEzwH4C61_QgOwKWfC4Voq6S47RHElLneV0TD9l/s16000/Exterior%20Left_03%20Day.jpg"
+                alt="PASBAN" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXNjsIG1PAYcOM-JkpKPuX9-QwLiK6aAQiqutA-a3dhaOYLUoo3Ynec-GVh5pSZWWBGMSAAhLiuqRzitM-0WM90pbyyTPd_Er_foVBT7kTAspRcna5iwuvSUaTRseLu1jzLJ3_DvCwtjss8L5u4cYDTymUURv2PXOkbVFhTm8vQqcQQMFD4M4_N5oeiopJ/s16000/Exterior%20Right%20Side_04%20Day.jpg"
+                alt="PASBAN" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCIAIdf3kOv2K9ILQGVuUfWaG_4r28eDSGMS70hszzHrfnpyzz3soLGu7lEiT4Tpv8_aBpjtK-1mhNVTx25gGHAlw_DSS_Fzgp4_fv7zj-ykX-BlBz9L2ZMF7MSrmvFYsdV0P4dTliHeJaz7-JjHL-RR_RETeMQ1CAscx-COhnL61IaRW_YLBjwyzgcbl5/s16000/Exterior_01%20Day.jpg"
+                alt="PASBAN" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdr4Su3Qv6XFx6gjSaC7A48nS0-LTSTJ5eO3h37bahF4cacJtYjvtaOxclh4ID2R2dji5cL7NL9ufvilANGujk8iFr01N3ewCHoUL7gLfobxmLMMd0QLQq6O9RPc4xddciDytGyufQkm_3gNInB1-C5mh6H46i__guYUqVB-ivlOSgVeze7AvuZn8y3dYo/s16000/Exterior%20Front_01%20Evening.jpg"
+                alt="PASBAN" class="project-image" data-index="4" />
+        </div>
+
+
+
+        <!-- Project 8 -->
+        <div class="project-detail" id="project8">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-xsB6bfLb_Ex0Q6XWtTDapdn5tCsqXcYjh4Jc2beDw8cRP9xVfVSeFEqxrGkq-rHVo5xfVyVJKTAX4kcRJMtkG8-qPIjKHVmQhI1ga0rCloCzmgp3swF-Z3J-EVj04X15y6JXjUFVcrK-89pGLZeUbhFtGLhtB6MXZG5sreSbkFKAXC3hMjX1j5fX6krQ/s16000/Tattva%20Ariel.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl2U338lpBIhv8gqlJtfVWAkWe4rIvJCtm7tEEffA5nwGgb9KqemruQ2mdO-sllrYbBjCVySyoV_Rfmhpsu1m4oTkEyJAb9vGVCs8ZsBM1V2IzeLgE8FMlJrqbKtJwTJiKZJeC1i79Y6OZWN8Gm4Ao2Ju0pRdv-bvymVey89N6nmqDfSHHufUmvuHbYMmO/s16000/Tattva%20Front.jpg"
+                alt="PASBAN" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOxFpTMhyphenhyphenBbzSe-SesfLogIfj4gjvbMFd3xltu7b4cZMFSEAR5nwOsfdZ7velvNcKH88r6kCP6_f6Knq9n6T2Zg2yEgsYxyezJJ_Nwd1pMCEMOiFdNg4sUaHNV2SM1PjvrrBEmUu6BBcQCzHfwJ84lyvyr8aJ7aqrZRfQ0os7JoBsaKOQ-fSgYhPmj-N6K/s16000/Right%20Side.jpg"
+                alt="PASBAN" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihJTuzw_lS_idntcnhC8lJovtinxxdDqA1FqaAmjGFJD0DcgUM_Asv_p23BcxDHIT2i-jLj6tmr2A59YeIqRk9Rj6yXZuYRnPAIfEplgKck9ijtsL-mucRxr2Pwjy1bsjRNFGPdoDySCp16q1UOw0SO3RByDuMCKF027Q-K2gKUSJft4OGvkzvMSd7tu1x/s16000/Main%20Gate.jpg"
+                alt="PASBAN" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEDtxnyOE76aifRqZsj8enF5Ruvp6qfFxGcN6616Y6mwBgL7sS8q_6wViuJk3zCQiVAREjnE4DeE3gJU0eIl57Of-HOcL289ZkHK1OWyRpz8WODy60lfYsAV-wZB16GE7ThuwRwgTwhhuTHRqoD492F8bCDxHJwpSkOpRQ0mIsDwk-S48IpHgoV53PrSeV/s16000/Ariel%20Top%20Full.jpg"
+                alt="PASBAN" class="project-image" data-index="4" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuZHTG9660wjkMx-jiWVudh196Uhe5MBJgmqtYqaYyGoEq-l5kcdb_D5hqGLvVYdSp6IPXj6lmXcAtyqUwxZdi3NVQJi0Ab-gYs0figwHt8wdtHOrBuhdjz4Wo2vPvZECbbu_hbKVx6YZWa6jeWAz_wegl_bSXKTjhLCfGD_hx_Rk2OmDJ-c18jy3ViJfX/s16000/Ariel%20Poduaim_01.jpg"
+                alt="PASBAN" class="project-image" data-index="5" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEGhazVp7Rin3Gip59wutXmaRKacmAXJY2szwR7lbvpRNwlhwE1mOC7DtqeAOyQnPOVJZUsGBTBB8oa0ZkQcIS4md_A6EL8RLKoluNY1Bf6mvkjkiQyz2cqBhKF-C8P7Z6KXjpn9S9s8bCSe6glbD2rjz8oko_XmyWvYKbFXdETD7dpT0WWp952TFwzHYV/s16000/Ariel%20_Close_00.jpg"
+                alt="PASBAN" class="project-image" data-index="6" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFz5FDd3adOYwzAJTyBK3O4h2C-fvZK2EtJBJZhOclS4gyJLVJTMhne03xAvCWkogo-IvZEHzICIgE19S73I_Qa9PPoeWkZDHnJPxB87psrWEiqZ7b2zxQ0OFSn8s21vUxYNIgcpiaXKB9Vm5YBLaK2RSP9ccJMvgoLeegRMuhXEEeekrfIxpXl5N42sTt/s16000/Roof%20Top_Sitting%20Area.jpg"
+                alt="PASBAN" class="project-image" data-index="7" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtcx4auHUpzrkUjJJLfkcG7e6WDcXLp_zhGAFyhwSIFd_keNz_x5XLAdrj4U2mFGHa2K-GnQWu6VREJfh2j5KAKjLZV4shv_pY-BHJtqFKzxJ1dJ4qrTkjvlgfpFhCweLYupS6YcgBedVfkPqcGo0hyphenhyphen6FY1t0ISEeLhiewHuuoMkKXcSXSMZVV40fENpy_/s16000/Terrace_Path%20Way.jpg"
+                alt="PASBAN" class="project-image" data-index="8" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBA0DKXu8h-B9mnyT58pKfX24l7YosocXF9yrchrcJmHmGKl6Ef3r6r4gPZnQk8mv-wgPzBOzGaNoG1hCFxtZvsp29yo2lQuLMOf8vEjEb_s82jJSu4T4Xc_lKPQhbrtc0HlnnxP5knG26gNV_3-yajI7plLo-fFOzQDDlk8XhdTD-IbAxkaBJG3BITQGE/s16000/Terrace.jpg"
+                alt="PASBAN" class="project-image" data-index="9" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigyz9vkANpKG1ztz9WWMRIewdXQ-loXFN2A-haX0kgZnqmePTR0XTXMpXdm_9HvnlAxfczAscYE2E310b5cOM7EJsQR78-cb8N8xAFRsdRdY0OXWVx8hxJ1ZzJJCeaXx-_tH5-WO3MWWIFoMhsOp-AnMIic7G5w_NEBTd8d7aFqDNsxlFN_vM1lSl0CqP_/s16000/Tattva%20Terrace0000.JPG"
+                alt="PASBAN" class="project-image" data-index="10" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPLGGvQ05TvvjIek71SoY_D8G7n4iCjsRBe9WI0I3Vrx-9U-c7hYV8rv4h2oLJdxNLD_yC8qaoBp1rTS-XTTF0gVgDlrNcfv1ie8yrkfbshmGQp8sJXE0Tr2D3n5YDP_Qlr06JII9Iz4KF8X4Q1_8VzVmQti6OHeGJ9toYHc7-D2sOE3-2Lsjdhz4YMsZ8/s16000/Terrace_Green%20Gym.jpg"
+                alt="PASBAN" class="project-image" data-index="11" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigt7oE0wUJfgnJduvNvzx90W7LZRFBfe65PJIEY0260GD3tmwsgarh04G7g_0uKbV5DRv1KEdu0Ya_hOkW-dyjAqyJyqk8rE9uRHtpHncqQM-9BzK04qLybSnCOgOprq61Vt_jHUA73FLqDEAsd85h1NUpLAawXOZFBXbb_LLb2CiHvbUxJqPVL_yXeRrP/s16000/Terrace_Gym%20Closeup.jpg"
+                alt="PASBAN" class="project-image" data-index="12" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIaBQXk_DlE9dI1krdji5KPTBY2ddExVJP_Cv4Wne-P_qw6GaJTlfqgaRFP8L3vhz1VE6iyxazUghEvG6A2jlAeNQM4dh0Pu2xn6pGm_PajpHLV_sMcjbulp4N30X-QRF0ms8D2i2ffvIxiI_pTP9KghrrzrquyO0HbwzwDyL1ATslu9-j_d8Yl5Jl8ji_/s16000/Swiming%20Pool0000.JPG"
+                alt="PASBAN" class="project-image" data-index="13" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpG4lz-3BqbhH-GH_r40s2wW4gEbRYIzK5TKpbAGMpWyB2TGa4CtE0P0hP4uVnvOA7BGl1Yvh91DjXR8m5LkHdVvXBewFysjGOyDZ6t6UUGPXKSIfP16HP9o92Zd_Sttoi5Ebu5v2NSRaxHE74VQOdzWWr7Dyd1XVcIiPDMHnH8E9c4MyVzS4YebmhbLA0/s16000/Swiming_Pool_00.jpg"
+                alt="PASBAN" class="project-image" data-index="14" />
+
+
+        </div>
+
+        <!-- Project 9 -->
+        <div class="project-detail" id="project9">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilgdg_mh63S4fA_ssLJFohBxGH2EcLaGvW-wBO6u41okY78n1myfEy3dldpyf39XgefgM4r0_PwbLkgTEsNcuQ7fKLbMqKVWHXkbRxjJKLkhqbxVHWWWXIHQ1eYjmoGhh4Eg8VKb-Jhi8V9KCKnsznQZU2LWF1l83LOMQ7qlNN_V1Mk8MHJbeVTs7LWVw2/s16000/02.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0lZADcGej6SDG0jT3LPLk1CzH2Rn2gLV49z31A4XG5ibMumbJMFBZgs2nRNvcF6vASkqMRSNz0o98rsHWAjUhDQA_QMxLoP8NzbN0h9IdQfLPGPWamCk1kH2cFiSNFcvWCBJTZe7wpAvu_WYSa6VsS8yWcVr-zjZOPaXR2ktJRXqEZY-T2S2O4Hdo3P2o/s16000/01.jpg"
+                alt="PASBAN" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEp_Fq5xGFxuyAsw-SmCgEY8Pmoq6FyFnmtyZHqwkAcf1H5WbT8sdv8PrW0rB3cG_GagYfM6PqnFi_ljZfMmwDRg2hK055-d1TbmL98x6aKoGjJMsO-iO-wObyCOlMXzMQM73ofj8lGDC4M70uoU1KDMPh8sW-IQbuCyDYHqTO3yyD5PRAP4kmx9lHhklQ/s16000/03.jpg"
+                alt="PASBAN" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg34pdMbFEkn6Wcbq2enLpDdsacpEFdy815mNDRIbYb8CoSvm-oJ7MFZBQzl5kHkvgRfK0u5n8EWAcz0pzo06IEWG5WsHTRZc3OgV81DJDqYUPe-zGaqnIgwJDYkKnjuLgdAVZxOTVX7kBncCvpyEtxXWVfbQ8j5qu1utBwO8xYrBlIkNIMdBe-P2aQb0AT/s16000/04.jpg"
+                alt="PASBAN" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVe3iZHKPOnRQ2-LMPm2M1O4EH5UZ5JmHODTTHP8Ob2ye3OiNn8WFHVOTlgj1gLbxnb0ZA5xzNbgDra84JoN7xXZ5nH6imLImR7tVC-iC7iGubpfwqKstVWBN8vXOW6CXXA2Vds2LKHUJ4WdJClv8VC6K7sIBSRUbeYY-UQRZica0BLHn2B-BBcC2necX2/s16000/06.jpg"
+                alt="PASBAN" class="project-image" data-index="4" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy41X2x6TEKOPhB3qhx4bqvHzqJsu1QX0FqVwNw7Kw8cCTbk9T1B24vck7qzuK00paOpP9qlZDipTryCKfQTcLs76uOw4JbR4WmxFc7i6odqWdbCyEQBQ1t_vZywNPlTYGDcQsQYTsz2Qt0DiKIAOAPnfKM880dX_nUzxcJb-Km43EkrkuDVDtj58NfDWA/s16000/10.jpg"
+                alt="PASBAN" class="project-image" data-index="5" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDT7GQpGn0x-WQoCEz-lVGEuXlDTZdB1NPoNsJniu022NfVJhxtWTJv7Y1gAO20NJSll-eUd4axG4blW8xZVz3nRy0ySH2AwRsuVXK8BytJMXRuzeym1L6Svr_UmBC6KbRz4EIWpn6O2uNoJRdytfvpo8XGliL1N-gCWmqcimC4A5RvayMd1zKBPFzSna1/s16000/07.jpg"
+                alt="PASBAN" class="project-image" data-index="6" />
+
+        </div>
+
+
+        <!-- Project 10 -->
+        <div class="project-detail" id="project10">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtC0DzRUfcJ3hblViuq-fi9YfCwoXpGGKi2gPobtBcZH4kWItSFygxVRNfRi9LT8eQAhEHBHxs4hBD9EW3WWkWEDz5eR35jf6ia3UmLcNDGcqMBHJxPBLBmgK3c81s35dJLzVQ58cNFMysekV3sm3JQYusramRxa9Nq8-71BKQgfrqKb-SUS2yzCEzDuI-/s16000/Lounge%20Morning.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3ajTbbif02OI7ndVogv07-bzVb5G3NX0zcjxtLK7mN3cMWCa9FuYFpmH6zqyFyhKsHC3b1UeiCYv4IOu0CQPrY7r4H4upIASBzH1ymKbwCHpgm9WXoastzRSHEMosKVOPmEKLSQRkG-AZvbW3Wx1kw52A9_qqn1isLfzyNgl9cVUb_M-c5ib220Sk6Eip/s16000/Lounge.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6SfrwIjQpaBiNqoaSZ8rQlyT9lUu6oxu84OwvkfStUQe1VN_QjXXSOzBnnOX7C3SRpO2L3gVhM-WtYALQjFN_WsZIOH9pkr6XAXvu-2yh572TL9T2ZsALZZSvmOesWdUdSNFviEaRtQT2fyfjteppsPx9HLEggs-5O6pHFL79egsPZSuaY1z5jZSyrpO5/s16000/waiting%20Area01.jpg"
+                alt="PASBAN" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9VkxFBj3TSz3tikADAe9vh3TjtHa29DkV9Peajz8oSSGX6501dyHq3b1NWkGA529G3iV24H7zY1T2wINpwcUy2Zeo7cxYGOBHzifAF6gf6UJLud9M0w5ZwwgHWElm1DTRcCRueHBQcDgiU_qksSi0bWQVB60rgUvcdrnhQ1VWDsoR4WEBapEw5JISlhX2/s16000/BedRoom%20View_1.jpg"
+                alt="PASBAN" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyxzAp9mrtzSVyKqh715tyAdfzj9xuSkgVC2pplGOAVQd5sUGqLpa7QmRD-ZcxSClglEX2hY_ssAALnZDv6p-uFlbxmId5qOg7XvkK7z5fZvS4W7f-2ytNPda0VglXjDmiR21gM8-KAkO3vBedFLC_QripVm7SFuL6_WHXOsmZ_ufV5O-dooBMUWSOS_a2/s16000/BedRoom%20TV%20View_02.jpg"
+                alt="PASBAN" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy7cIrzOYaPMzQao20gaPbvr6ZWyIcjtZJVuR_f6Nn8SL7hYNFIKM-QhjeSsPukfFmaXMvRUo32K8FXsorZnSMPe96MsY6LFfGsXO99z5lo_xlr7_Ru-MMaLl7V6eJ_kom-jsiL4KRFAo9s5OJrjkhqzwRrAPBroxSEnrSl8ZihIzVEVlRJTzP9S_rzuhm/s16000/BedRoom%20CloseUP_3.jpg"
+                alt="PASBAN" class="project-image" data-index="4" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeK9enJ7KtRc2eTC6m59z25eBZDmLJWhxOSQApKVAxos2T8HmbismL7skBFOGQVcA1UgLzaDi0V64NNrZX8OG2UKKTAnfsaKHt2GUXyyCp54Q2P40oakLcliWEYdR1S0kAQWYPsfMd9hQr5oh7KCy9I1_kvMpzsLNBao2HzbXCIjwUvEZfEU6Q6MPt17j4/s16000/B_00.jpg"
+                alt="PASBAN" class="project-image" data-index="5" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3SkbQHo7CGoXlpCDKh1_MAKyq8kyR9hTZHzMpFNnr2Uaoz_VfpNdNPngZR6jAx4UJEkWugW0IB1-eRSFwzfTXT4zKXhjNO8zAsn_euC2g4ECovMfOoLg1XQYBNHdCGQIrghIJF1ek4fOkPLtsyC7oAUm2eUwwIKH-spBkcmFJaOhr7-UE-fEH81wzEpKu/s16000/A_00.jpg"
+                alt="PASBAN" class="project-image" data-index="6" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_-iFGAEXb4YcYbvwXEJzM-9OB7T1Qw1K6sZa70U2wA8wsxAbtqFRplvuaE3KlfrZzP_Lv2KhHeMPDAsgAmk9VoTQAhhyphenhyphenZ7gZDBmesFWSBEMZznr4FEWczFE8y2Y4RwFsI_d_eHqxbCQGZNZrCFMAgP3x7SM_u6XUOQ3A6beP8xL8h10j-Av65-xVNwAr7/s16000/zBathRoom.jpg"
+                alt="PASBAN" class="project-image" data-index="7" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHSD-fc7MUGi9IQRTtO74iH-MnrTDcPTnuYrvQ-4MpGGJKlFYaUDYlMrr5LIXzp_6NTTKjF9DgLSC9NuDPinrSharifwWPZjVUPoMdyt65l-7gWcXsTcJolPtRTw4vig9AM_7rSUXjNr2TXVwUQuKomC2bny9OahKt4l0Zh4SRFkm8B0rwE0J6aUiMn3Vh/s16000/zBathRoom_2.jpg"
+                alt="PASBAN" class="project-image" data-index="8" />
+
+        </div>
+
+
+        <!-- Project 11 -->
+        <div class="project-detail" id="project11">
+            <button class="close-btn project-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiggoSfbt0tYHx2k0BkRAzQVTAYfHqtTtA3zOPnXWv8mcxDYCY2weGl14PMPhSD2WYpq24302tNS5yszKITrH6D8cdheSt9Dtv88ArTg61OigXjVGBye_DwvGx4qBysAncd2Ny6-1fOerR2EnPPIvTMy2GerpSXXLUFL-oE3LeZ7FqU_bnxiy_Wd2dpjRHo/s16000/Lounge%2001.jpg"
+                alt="PASBAN" class="project-image" data-index="0" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRpMbtxrl9HHRxrn7k2CMZY-3IZ8i3YjiLDXYcbNHwZL9_9tlbxIkOq_RnFc6N_0ksvUtThVCR63En_AJQMXbluQykVPRKu0O0_Z6CJLOw_MKtoYa9Zr4YzTmFN113dSEr7PYfVF-Lqmm7V2CuiippS2tvMj7peTdpuV5zHUY4-Gm_K_KImIA0JOprxEhz/s16000/Lounge%2003.jpg"
+                alt="PASBAN" class="project-image" data-index="1" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0EfhzihOfHM9V7OnuVVEQBdaAd-PzVvUTs1R1D9v7rPL30cJFtZ5Df8rnU8tEW1VB28k_EYP9R0mC4qqK5XUONdHaVNvFR88QEx0igFvU0GxFajojTKFzB7zwehj8sqURf9t4yaTCqAJD0Zr4zGN3aHOncpVz2VI2gdtGFADe94n19ZMWinYSNwrcJmDj/s16000/Corridor%2001.jpg"
+                alt="PASBAN" class="project-image" data-index="2" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgditwop9UTbEqvd7vTJHXt0NVFe3Uj9Q5JDlRiXcaWj-Z7OvMqf5_43co-ry1IuZZcXFlexI7tgrRBqcnM1Mqm4vm7eOzZVsBPfaGOckcAVbSnAfckmRoacD7obVG7eNXNphVM0CEmFPyVUA8FhFl6M2fD9ZKbZ59DDY1tbeCUqWimjYdA3q8RqCP9iNaW/s16000/Game%20Area%2001.jpg"
+                alt="PASBAN" class="project-image" data-index="3" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXy6i7vXn4ZwE5uwiInXBEvSuHBLU8kZ1u-3AQz9YqWrzaK3nmArcj-pGolkaCsvnMirycj_gckl1-9hEEMboKBmR1_HBsQ2UuePCOUVwN2Y5P8S2p574by_mEG0u1PXcwqDuGfPVj3XBKIe8k-sXWkxsTbzDgrJqjFIrKt-CxbfBP7NBDX2zGMONZ0xYu/s16000/Game%20area%2002.jpg"
+                alt="PASBAN" class="project-image" data-index="4" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPqnJe7GfYmV4e5-gYHEKVwvZ1hycgnMOHyK1n8wolCbbKvPVx3MXKjmnnYkdsKFwlBV1mU6wm2H02-4Id8f5f4nd2liMfYEaaD3ejaGrwnxrHvgHTo0t5Buu5_noZt5N7l2_QkmkD61W7oSu6-G5chBEDlP6ldpN8GYYogcHUh1oLGBETZUzLYhi089OB/s16000/Kitchen%20Dinning_01.jpg"
+                alt="PASBAN" class="project-image" data-index="5" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKIINZieTB0rTWyAal_ASwNHhKwLICZGEwvfQo1pJKv2cp4gNEmFgNntv2fm9vhIQ08CSYBS_ihLqu_cuJptoQ79mcB1BKgDG3bZFccMjrdOStuESe4Sj7QQrqRG9LEcpxBdQAYq__aSrJKuzxaQBxXut_YWjH7MT7BsiQPH3C7FTvr3eskyqob8COYvRF/s16000/Kitchen%20Dinning_02.jpg"
+                alt="PASBAN" class="project-image" data-index="6" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgtzrtOo73AjwKBesmfcp6-4XBumGD_aCPbphy6L6Yi_MTMxnr6x0UaIk2yOWWPhmxoC7v71-gk8yJTsMqrP6UEV7C1-mn3zS0ddRlamNrHbL1GN7EOv3Gs2dGFJirhGCKH_wHedR67KkfvaslsBI0zvJ-5kCCTIzgnnQjc5xkL_gJe0O8Fgh0ZT2Hrybv/s16000/Meeting%20Room%2001.jpg"
+                alt="PASBAN" class="project-image" data-index="7" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNYth1STZN6p5h2848ATDmta9BPCaM3CqC_CXEDlgycMrfj9XLZFju2NsXEkqq83f4mRf-EN8wN1gceQDif4Qnrtstry4HAp2O9oObO6o8oMyMdPTnKqJNQTgQrAys7DLhQbsyA5hsSZVuw1lkJaXU6GAIIgh7n_01cYmD7jfepyWbkTQJFNVvwzYKAEIF/s16000/Work%20Space%2001.jpg"
+                alt="PASBAN" class="project-image" data-index="8" />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQueGv9qE0_jDzd1p93Ibg_3bSob-Fs7maMm9wHlv6_FWDpbyMPQRcofs6BPNH4VwiRQ0XEHrRqyH8LuMeUwrwifN7wVfuK5dvqLEibcDEsu3eykGw18F_mcBLBKuW7BClBUax-VOPz-1Ju9B-MYXzzRAs_CN5OiFsexlN1rOkRnozwZ_VZIf5H0U786im/s16000/Work%20Space%2002.jpg"
+                alt="PASBAN" class="project-image" data-index="9" />
+        </div>
+
+
+        <!-- Image Viewer -->
+        <div class="image-viewer" id="imageViewer">
+            <button class="close-btn viewer-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="nav-btn prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="viewer-title" id="viewerTitle"></div>
+            <img src="" alt="" class="viewer-image" id="viewerImage" />
+            <div class="image-counter" id="imageCounter"></div>
+            <button class="fullscreen-btn" id="fullscreenBtn">
+                <i class="fas fa-expand"></i>
+            </button>
+
+            <button class="nav-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Side Toolbar -->
+        <div class="side-toolbar" id="toolbar">
+            <button class="tool-btn" title="Follow">
+                <i class="far fa-user-plus"></i>
+                <span class="tool-tip">Follow Creator</span>
+            </button>
+            <button class="tool-btn" title="Message">
+                <i class="far fa-envelope"></i>
+                <span class="tool-tip">Message</span>
+            </button>
+            <button class="tool-btn" title="Save">
+                <i class="far fa-bookmark"></i>
+                <span class="tool-tip">Save to collection</span>
+            </button>
+            <button class="tool-btn" title="Share">
+                <i class="fas fa-share-alt"></i>
+                <span class="tool-tip">Share project</span>
+            </button>
+            <button class="tool-btn blue" title="Like">
+                <i class="far fa-thumbs-up"></i>
+                <span class="tool-tip">Appreciate this work</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="Animation" class="section dark-section">
+        <div class="section-header">
+            <h2>CGI, ANIMATION</h2>
+        </div>
+        <div class="grid salamviz-video-gallery">
+            <!-- 1. Al-Furjan Final TVC -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/watch?v=s53VUcxTqp0"
+                data-title="AL-FURJAN FINAL TVC">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeCX7Ovz4egBuVF5dVNIuApdONUvRd0vYGfxeibCJfmNDm70koUA3l3IzxlapJPMCCnwxlIMPljEalWeRg4tjeySj2UtIvniEBHs-Z-hhF-rXUhyphenhyphenM6D0lz7CCEIIC7ehxbujnNRwyiBx990k1WgWPL0RYG6obNYfTSzvWzuqrVOgd1TCiu3-piNixHmUb4/s16000/Thumbnal%20img%202.jpg"
+                    alt="Al-Furjan Final TVC">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line first">AL-</span>
+                        <span class="salamviz-title-line second">FURJAN</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 2. Hyderabad Icon Final TVC -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/L9_X76cp6vE"
+                data-title="HYDERABAD ICON FINAL TVC">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8FA1UwFaXRdqeU1Xs03WZIse6Vjq7g5Y6ZZKPVJxUwdtdt3mqcu4cW1IeeyUmx07nMJNtOKwRHREE_hvT4ZP5kPXZu71waR1tXtz_-sheB9wH24aQdIQeQElUJH-9xVM6tq8TOyY0lyeAJwS8ZD_2ipgQ_LJA4ztBfeqtm1DpWp92Jeg-UZF7RnDe2-pg/s16000/Thumnal%20img%201.jpg"
+                    alt="Hyderabad Icon Final TVC">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line first">HYDERABAD</span>
+                        <span class="salamviz-title-line second">ICON</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 3. V-One -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/qe0Y72KpJrY"
+                data-title="V-ONE ANIMATION">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAhoQYW5y9UZiqD2qLwVVZ-ExO1eAgCZFnDbAV1oq5Ck4OY_tKb1YdALpkhKj3D4ijVmTjZAG3CArKhaOykrWZmJPMOUUjFq7UXpVS8UKhfcWwcWhjEjqGgrvt8me4_nB3Yyd_dIwRkWQuQd_m7zQv1E1bZShRsLISBkN1Be4zlHQIv8KzTD4BFN_LKvgl/s16000/Thumnal%20img%203.jpg"
+                    alt="V-One">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line single">V-ONE</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 4. Tattva Animation -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/8TvnkA7nJfU"
+                data-title="TATTVA ANIMATION">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSW0_MAsdKStySoqEHpqnmh3ofdG53eAtc7oLy3UgzuA2j-D58iC3dgin-qqxmIOZ86QiC2LIh_KTenjT1Ca0jM6-Y0HqfEs30Wzyv823tCLXywbrTx3H-jRqXEfP-ab-sVwHXgAJOzlsKWE7vDHn20Uar8MZnVMpKGaZDjEcID0P1F19KDzcGdHckKqUm/s16000/Thumnal%20img%204.jpg"
+                    alt="Tattva Animation">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line single">TATTVA</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 5. Passban TVC -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/VDxK-K0z9ZI"
+                data-title="PASSBAN TVC">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrBV1jxKZ6M9pOvTjxVj9drAscUL7IC9VFuI-OUd4_Mt5TP0DSsqutQlRdTDhsRjDo8p2Yi4-NO-sQjgZPWBxrM_hx8mJwGIZliMXX_2Et9EC3NFQeFerDAUYsx10pri7C3ufJI78XbRnu8mNxV7Cm_tNpcGQQhLewHCRA_w6nMAaM-jSFFK3LaZ91EIy7/s16000/Thumnal%20img%205.jpg"
+                    alt="Passban TVC">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line single">PASSBAN</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 6. Aurika Vista TVC -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/s0eb3Q4IlvU"
+                data-title="AURIKA VISTA TVC">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY8nYCERGaXh-a9cbNKrwK4l5qehYjqIyzjiem1kQjE4eDktbbH4G6tLmfChbdqJTlUajbL0s35R06ySdhwoa77H7lyMAdHKAaruuAK6JQzYmpuhmPQWt7j93HaslUd-ved1Si4zJX5ptog3ClZeU83XX8F-sLTvyomPwPB6hsrJ9Bv8X-Mlv4W7ppYl9z/s16000/Thumnal%20img%206.jpg"
+                    alt="Aurika Vista TVC">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line first">AURIKA</span>
+                        <span class="salamviz-title-line second">VISTA</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 7. MGC Animation -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/yP0Jb_5nFgU"
+                data-title="MGC ANIMATION">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSYx_ZATWGYlBMCxN9pX2IGMPLaINGISl7l3y9UeT0BQBes3QzVNN8XtM4drTvGhsEX0gyxJjyJOk0-oM6X362aHRHNp7wg-qX12ht8Q-tnFXMTB7ck4RNBH8obFRPbV7_NBWOH6-g2z3F8xUlusS00ht6ZyX1Tbe7fu6SFUCh7waJ8EvL2VujylAQwZHN/s16000/Thumnal%20img%207.jpg"
+                    alt="MGC Animation">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line single">MGC</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 8. D_E Animation -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/vtXQ32c_NiI"
+                data-title="D_E ANIMATION">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-U4xtC6Tb3Yn76dcY34eNqPDTiaq2cjG3jJsyGQ_1oVDC3LktFuhCaZowl46t2aUPqcucnABonN22cbPpMiIs3yh9dBOegsDRXgicj1ldtNLc4BeWb1yI-fFhHYcFJx15dvcxu9g4FsgwlBwuAbiFRTArgf9Lfkup_2Ad-J6bxzd95k7jKYwJWnyFCra4/s16000/Thumnal%20img%208.jpg"
+                    alt="D_E Animation">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line single">D_E</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 9. Elevate Final TVC -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/ZxMmYXq61cw"
+                data-title="ELEVATE FINAL TVC">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-U4xtC6Tb3Yn76dcY34eNqPDTiaq2cjG3jJsyGQ_1oVDC3LktFuhCaZowl46t2aUPqcucnABonN22cbPpMiIs3yh9dBOegsDRXgicj1ldtNLc4BeWb1yI-fFhHYcFJx15dvcxu9g4FsgwlBwuAbiFRTArgf9Lfkup_2Ad-J6bxzd95k7jKYwJWnyFCra4/s16000/Thumnal%20img%208.jpg"
+                    alt="Elevate Final TVC">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line single">ELEVATE</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 10. Salar Height -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/9t8yRzL62sI"
+                data-title="SALAR HEIGHT">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8gBO25DGJCQKdxMdKHflIRAD4nrPS01k-F0W-sJga_5_B-fLp0wWzchbTegzmL3J5qIWO17jKkTLJcq0ckLNQvAk_oWgm9vsq4FuvN5dkCEGqNuc0LZ3c1ylrGh-nmjZOLgoUoDuorxFKM6hCi04NDUAQIQBKy6JcElsxkJNxImp9BElzEpfJdg0g3e_y/s16000/Thumnal%20img%2011.jpg"
+                    alt="Salar Height">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line first">SALAR</span>
+                        <span class="salamviz-title-line second">HEIGHT</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+
+            <!-- 11. BCD Jasmin Animation -->
+            <div class="salamviz-video-card" data-video="https://www.youtube.com/embed/4sGCGptvIzo"
+                data-title="BCD JASMIN ANIMATION">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8gBO25DGJCQKdxMdKHflIRAD4nrPS01k-F0W-sJga_5_B-fLp0wWzchbTegzmL3J5qIWO17jKkTLJcq0ckLNQvAk_oWgm9vsq4FuvN5dkCEGqNuc0LZ3c1ylrGh-nmjZOLgoUoDuorxFKM6hCi04NDUAQIQBKy6JcElsxkJNxImp9BElzEpfJdg0g3e_y/s16000/Thumnal%20img%2011.jpg"
+                    alt="BCD Jasmin Animation">
+                <div class="salamviz-title-overlay">
+                    <div class="salamviz-title-wrapper">
+                        <span class="salamviz-title-line first">BCD</span>
+                        <span class="salamviz-title-line second">JASMIN</span>
+                    </div>
+                </div>
+                <div class="salamviz-play-icon">▶</div>
+            </div>
+        </div>
+
+        <!-- Lightbox HTML -->
+        <div id="salamviz-lightbox" class="salamviz-lightbox">
+            <span class="salamviz-close-btn">&times;</span>
+            <div class="salamviz-lightbox-content">
+                <iframe id="salamviz-video-frame" allowfullscreen></iframe>
+                <div class="salamviz-video-title"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="row">
+            <div class="col-lg-7 col-md-6 col-sm-12 ps-5">
+                <h3 class="hea">SalamViz – MEET Faisal Salam</h3>
+                <h3 class="hea2">Founder & CEO SalamViz</h3>
+                <p class="pra">
+                    I'm Faisal Salam, the founder and CEO of SalamViz. My journey in the CG industry began back in 2015.
+                    Over the years, I've worn many hats from animator to technical artist, VFX compositor, and
+                    architectural visualizer. Each role taught me something unique, and all those experiences laid the
+                    foundation for what would become SalamViz. I started this studio with just three passionate artists
+                    and a clear focus: architectural visualization. What began as a small team has now grown into a
+                    close-knit family of eight incredibly talented 3D artists, each bringing their own flair and
+                    expertise to the table. At SalamViz, we believe in a fully collaborative approach. Every project is
+                    a blend of creativity, technical precision, and bold imagination. Our strength lies in the diverse
+                    skills of our team we learn from each other, challenge each other, and grow together.
+                </p>
+            </div>
+
+            <div class="col-lg-1 md-none d-inline-block"></div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 imgcol">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinrYCGjOP4jGL5BFJkryb7N_3MgSB-lJeV-1AyXWXSit41Hp8vX9OCm8O2CVlFDt-BfKKBE2OytAWBNlUV-UbhRQVsI3-f6Sf65BgMjF_uOoia7Gv_D1XMm-pDSpYp9MmQs0ByCS1cBHZq0vTM7ZMJKsuniV-xPB9O0h4_37SOoAx_3xJFGs18JPR-Je2t/s16000/faisal.jpeg"
+                    class="im" alt="Faisal Salam" loading="lazy">
+            </div>
+        </div>
+
+        <div class="section-header">
+            <h2>MEET OUR CREATIVE TEAM</h2>
+        </div>
+        <div class="team-grid">
+
+
+
+            <!-- Team Member 1 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcLvpXkXE6cXRwgIJFRODQ5buHcjIA7FdUytfjbNd208Y8WW8xV7mtim8ikHr-1laT7xWcNUJHGTAitH-uF2TZN5fpkRxmpPJ7uCgoKOIC8Pi1v-g5CJbpYKurTDBlbLbMdR_B7l89Ek9EqzKNm1j4pY69a5JZu3-LU7gd9vUR99-MwSlJtb8lsTtYA8g_/s16000/fiza.jpg"
+                        alt="AZHAR MIR" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>AZHAR MIR</h3>
+                    <p>MARKITING MANAGER (SENIOR CGI ARTIST)</p>
+                </div>
+            </div>
+
+
+            <!-- Team Member 2 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMW-fPXyH8Un2OGZD_aTzD-PV9WI3OOlSjVxZD6F6pMyR24zZQLiec8eMazNAoclqTWxQ-9xabGqPfBjW3_EYpwtSEx8XQlIWjm5qIiyxTRpgoimX-OTN1QcNdr1BD_zCxSvX_pOkVYPOjtt2vo6GgXlbfx0W5NTYOeSN-eyZrBV73e2-FDNRuAr3Nw2Nd/s16000/sajjad.jpg"
+                        alt="Sajjad Ali" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>SAJJAD ALI</h3>
+                    <p>CGI ARTIST (Team Lead)</p>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwnffOEa_FinFSgnSZv2rgH4sMqFddM0bLc2-Rq3slzxDdMu_hxWQNWH9dI_Q0uUjk_ck38XupNCeU0nUiDm8gvR2ua9BcQ3lVhmyCyxeORWkkEB7LCcpIF6Jvhn5gKFLbBATa9-VFoNE3CD3YxzpioB_9GjU_W0SDp1bZyyhk5_VtnmhveA51lj61gRVT/s16000/Haseeb.jpeg"
+                        alt="Abdul Haseeb" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>ABDUL HASEEB</h3>
+                    <p>CGI SENIOR ANIMATOR</p>
+                </div>
+            </div>
+
+            <!-- Team Member 4 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzED58SuMXgWUqWMbPCwrOD_k2iqDzDmZUyd-NGOKDPPnwikCnhNaJVMt8fs2qszCPPUso2qpxc2L54ETqHpD4vZgD6k_JyCJZorjdBZEvbR_CgzLwruQHS8rqFOwoDDgOAyCGphm3wRLwnncfKDIZIVdvDQB6mGIsdAZcuUqUPTvr3feoVL0S9odRmohm/s16000/khizar.jpg"
+                        alt="Khizer Hayat" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>KHIZER-E-HAYAT</h3>
+                    <p>CGI ASSOCIATE ANIMATOR</p>
+                </div>
+            </div>
+
+            <!-- Team Member 5 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIx7KKGVJnTEqVKW0_CVKXamJsMb44poyTgcOw4zx3Veh5KDE0XlJnHiHDfcKO5I1uCVZ5dKJi4EGF3Jl2BJQlOyB75koserMmQdjkD-A08dXTtg0h4jYz2WivK9ovOzvjI4QGsUZCBPUXLzp656grYeQTbqOw-bi176ygQRE8w1DMkHD3FAr2srl-34Rr/s16000/munna.jpg"
+                        alt="Mudasir Ghori" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>MUDASIR GHORI</h3>
+                    <p>3D VISUALIZER</p>
+                </div>
+            </div>
+
+            <!-- Team Member 6 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZARwrcok-KMiSWd9bWZu62iXLryMbXaG2HUybtKoiuk7m6coFIeSCsUK_y7bSV1DvlqT0WuGFUpwWVFPCrc7CDnybWc936J5K1_janDFsqP3Iu4Q9mcxZfF9IK0sr1I_-tpvvfzokZg_HQXU66ASSwlN3QBWoE-KJcmmwSApjrN7OxEAkwdywxlj8O7e/s16000/zakir.jpg"
+                        alt="Zakir Bhitto" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>ZAKIR ALI</h3>
+                    <p>3D VISUALIZER</p>
+                </div>
+            </div>
+
+            <!-- Team Member 7 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRqdKz28nIigBwYcrYRzfHC4-qKKS8Xdjc4c6Wv7LfrwJSYKnEPnyZJDRL7h6Xq6iJouZ0Oz-Wopu6kAW8SecRSjPk3H5Rnw3AWInMRM7x4bAtefv0hI0ekLe2xP-To8Jt-LimXW9bf2rEZqCVVCsDsyTPXH8dkFmD_fRuoyhg7Tp_21ATwTnc6pVAU0th/s16000/IMG_9090.JPG"
+                        alt="Armish Khokar" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>ARMISH KHOKAR</h3>
+                    <p>ARCHITECT</p>
+                </div>
+            </div>
+
+            <!-- Team Member 8 -->
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFk9qns3GauZWPeBxDucBM7SJRAZNqVVZGNuO1MEAOHsaobEikfsqp74wmxxtvpS310AkFQo7HCFFzJsWV0daJc_HJnLtdKgqpRjndkRXEMXPYkC1SWL2haSHSUaJbZJUph2VE6TNjqZxg64fnz-ePlqXOfxBnI0dfXKmKCED8bPR6P6ezcN3LJVVlsMTJ/s16000/King.jpg"
+                        alt="Mohammad Bilal" loading="lazy">
+                </div>
+                <div class="team-member-info">
+                    <h3>MOHAMMAD BILAL</h3>
+                    <p>SENIOR GRAPHIC DESIGNER</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>
+                    SalamViz is an award-winning design studio specializing in architecture,
+                    interior design, and digital experiences. We create spaces that inspire
+                    and digital solutions that engage.
+                </p>
+                <div class="footer-badge">
+                    <span>Innovation</span>
+                    <span>Creativity</span>
+                    <span>Excellence</span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#work">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Our Work</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#team">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Our Team</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Services</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Blog</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Careers</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Architectural Design</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Interior Design</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">3D Visualization</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Digital Experiences</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="link-icon">→</span>
+                            <span class="link-text">Consulting</span>
+                            <span class="link-hover"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-info centered-contact">
+                <h3>Contact</h3>
+                <div class="contact-content-wrapper">
+                    <p class="address">
+                        <span class="contact-icon">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                        Office # 316A, DAWOOD MART,<br>
+                        Autobhan Road,<br>
+                        Hyderabad, Sindh Pakistan
+                    </p>
+
+
+                    <p class="email">
+                        <a href="https://mail.google.com/mail/?view=cm&to=salamvizofficial@gmail.com" target="_blank"
+                            class="contact-link email-link" aria-label="Send email via Gmail">
+                            <span class="contact-icon">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <span class="contact-text">salamvizofficial@gmail.com</span>
+                            <span class="contact-hover"></span>
+                        </a>
+                    </p>
+
+
+                    <p class="phone">
+                        <a href="https://wa.me/923342451603" class="contact-link whatsapp-link" target="_blank"
+                            aria-label="WhatsApp">
+                            <span class="contact-icon">
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                            </span>
+                            <span class="contact-text">+92 334 2451603</span>
+                            <span class="contact-hover"></span>
+                        </a>
+                    </p>
+
+                    <div class="contact-hours">
+                        <p>
+                            <span class="contact-icon">
+                                <ion-icon name="time-outline"></ion-icon>
+                            </span>
+                            Mon-Fri: 9AM - 6PM
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-logo-container">
+                <img src="images/final.png" alt="SalamViz Logo" class="bottom-logo">
+                <div class="logo-glow"></div>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com/salamviz" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <span class="social-tooltip">Facebook</span>
+                    <span class="social-pulse"></span>
+                </a>
+                <a href="https://www.instagram.com/salamviz" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                    <span class="social-tooltip">Instagram</span>
+                    <span class="social-pulse"></span>
+                </a>
+                <a href="https://www.linkedin.com/company/salamviz" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="social-tooltip">LinkedIn</span>
+                    <span class="social-pulse"></span>
+                </a>
+                <a href="https://www.behance.net/salamviz" target="_blank" class="social-icon">
+                    <i class="fab fa-behance"></i>
+                    <span class="social-tooltip">Behance</span>
+                    <span class="social-pulse"></span>
+                </a>
+            </div>
+
+            <p class="copyright">
+                © <span class="year">2025</span> Salamviz. All rights reserved.
+                <span class="legal-links">
+                    <a href="#">Privacy Policy</a> |
+                    <a href="#">Terms of Service</a> |
+                    <a href="#">Sitemap</a>
+                </span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<!-- Your Script -->
+<script src="script.js"></script>
+
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
